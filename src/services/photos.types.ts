@@ -1,4 +1,4 @@
-export interface PhotosApiI {
+export interface PhotosDefinitionI {
     albumId: number,
     id: number,
     title: string,
