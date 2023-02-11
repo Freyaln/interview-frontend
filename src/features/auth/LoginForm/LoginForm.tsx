@@ -31,10 +31,12 @@ function LoginForm() {
         resolver: yupResolver(LoginFormSchema),
     });
     const [login] = useLoginMutation();
+    const mockToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6IkxlYW5uZSBHcmFoYW0iLCJlbWFpbCI6IlNpbmNlcmVAYXByaWwuYml6In0.sBNOPZ2vBYrHVkvpzdzBHiB0d-LbvbRjv2qq7hkgIBo'
 
     const onSubmit = async (data: LoginFormDataT) => {
         try {
             const body = await login(data).unwrap();
+            setStorageToken(mockToken, data.remember);
             navigate('/');
         } catch (err) {
             console.error(err);
