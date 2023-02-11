@@ -406,7 +406,8 @@
     "farmer-confirm-removal": "Graag bevestigen dat u de geselecteerde boer(en) uit alle teams wilt verwijderen.",
     "farmer-info-card": "Wilt u deelnemen aan het programma? Maak een gratis account aan.",
     "my-profile": "Mijn profiel",
-    "partner-info-card": "Neem contact op met ons verkoopteam en ontdek alle voordelen!"
+    "partner-info-card": "Neem contact op met ons verkoopteam en ontdek alle voordelen!",
+    "title": "Titer"
   },
   "teams": {
     "confirm-delete": "Verwijder team",
@@ -468,7 +469,9 @@
     "partner-info-card": "Wilt u partner worden?",
     "reset-your-password": "Reset uw wachtwoord",
     "settings": "Instellingen",
-    "teams": "Mijn teams"
+    "teams": "Mijn teams",
+    "photos": "Foto's",
+    "my-photos": "Mijn foto's"
   },
   "validations": {
     "confirm-password-required": "Wachtwoord vereist",

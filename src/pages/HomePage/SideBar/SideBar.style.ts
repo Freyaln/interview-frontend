@@ -32,8 +32,8 @@ export default makeStyles()((theme) => {
         },
         nameContainer: {
             display: 'flex',
-            flexDirection: 'row',
-            alignItems: 'center',
+            flexDirection: 'column',
+            alignItems: 'flex-start',
         },
     };
 });

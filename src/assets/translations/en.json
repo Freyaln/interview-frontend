@@ -458,7 +458,8 @@
     "farmer-confirm-removal": "Please confirm that you want to remove the selected farmer(s) from all the teams.",
     "farmer-info-card": "Do you want to join the program? Create your free account.",
     "my-profile": "My profile",
-    "partner-info-card": "Contact our sales team to learn all the benefits!"
+    "partner-info-card": "Contact our sales team to learn all the benefits!",
+    "title": "Title"
   },
   "teams": {
     "confirm-delete": "Delete team",
@@ -535,7 +536,9 @@
     "reset-your-password": "Reset your password",
     "settings": "Settings",
     "teams": "My teams",
-    "your-programme": "Your programme"
+    "your-programme": "Your programme",
+    "photos": "Photos",
+    "my-photos": "My photos"
   },
   "validations": {
     "confirm-password-required": "Password required",

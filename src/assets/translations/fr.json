@@ -458,7 +458,8 @@
     "farmer-confirm-removal": "Veuillez confirmer que vous souhaitez supprimer le ou les agriculteurs sélectionné(s) de toutes les équipes.",
     "farmer-info-card": "Voulez-vous rejoindre le programme ? Créez votre compte gratuit.",
     "my-profile": "Mon profil",
-    "partner-info-card": "Contactez notre équipe commerciale pour en savoir plus sur tous les avantages !"
+    "partner-info-card": "Contactez notre équipe commerciale pour en savoir plus sur tous les avantages !",
+    "title": "Titre"
   },
   "teams": {
     "confirm-delete": "Supprimer l’équipe",
@@ -533,7 +534,9 @@
     "register-to-partners-portal": "S'inscrire à la plateforme partenaire",
     "reset-your-password": "Réinitialiser votre mot de passe",
     "settings": "Paramètres",
-    "teams": "Mes équipes"
+    "teams": "Mes équipes",
+    "photos": "Photos",
+    "my-photos": "Mes photos"
   },
   "validations": {
     "confirm-password-required": "Mot de passe obligatoire",

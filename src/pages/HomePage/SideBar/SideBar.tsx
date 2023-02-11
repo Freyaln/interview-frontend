@@ -1,6 +1,7 @@
 // import { usePermission } from '@hooks/usePermission';
 import DashboardOutlinedIcon from '@mui/icons-material/DashboardOutlined';
-import { List, ListItem, ListItemIcon, ListItemText, SvgIcon } from '@mui/material';
+import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
+import {List, ListItem, ListItemButton, ListItemIcon, ListItemText, SvgIcon} from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import { useMatch, useNavigate } from 'react-router-dom';
 import useSideBarStyle from './SideBar.style';
@@ -13,10 +14,9 @@ function SideBar() {
 
     return (
         <List aria-label="main folders" className={classes.list} component="nav">
-            <ListItem
+            <ListItemButton
                 className={`${classes.navLink} ${useMatch('/') && classes.navLinkActive}`}
-                component="span"
-                button
+                component="a"
                 onClick={() => navigate('/')}
             >
                 <ListItemIcon>
@@ -28,7 +28,22 @@ function SideBar() {
                         primaryTypographyProps={{ className: classes.listItemText }}
                     />
                 </div>
-            </ListItem>
+            </ListItemButton>
+            <ListItemButton
+                className={`${classes.navLink} ${useMatch('/') && classes.navLinkActive}`}
+                component="a"
+                onClick={() => navigate('/photos')}
+            >
+                <ListItemIcon>
+                    <SvgIcon className={classes.listItemIcon} component={InsertPhotoIcon} viewBox="0 0 24 24" />
+                </ListItemIcon>
+                <div className={classes.nameContainer}>
+                        <ListItemText
+                            primary={t('titles.photos')}
+                            primaryTypographyProps={{className: classes.listItemText}}
+                        />
+                </div>
+            </ListItemButton>
         </List>
     );
 }
