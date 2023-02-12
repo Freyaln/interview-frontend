@@ -17,9 +17,8 @@ function PhotosPage () {
 
     useEffect(() => {(
         async () => {
-            const photosDatas = await fetchPhotos();
-            //TODO fix the TS error
-            setPhotos(photosDatas.data)
+            const photosDatas = await fetchPhotos().unwrap();
+            setPhotos(photos => photosDatas)
             setIsLoading(false)
         })
     ();

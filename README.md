@@ -23,3 +23,5 @@ May the force be with you.
 
 
 * Be a builder: add new a page to the app and fetch all photos (/photos) with the same API as the one used for the login.
+  
+  - Done
